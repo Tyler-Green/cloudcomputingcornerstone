@@ -5,7 +5,7 @@ import wave
 def speech_recognize_continuous_from_file(thisisafile):
     """performs continuous speech recognition with input from an audio file"""
     # <SpeechContinuousRecognitionWithFile>
-    speech_config = speechsdk.SpeechConfig(subscription="84e47070f07246809f27e90199147298", region="westus")
+    speech_config = speechsdk.SpeechConfig(subscription="KEY", region="westus")
     audio_config = speechsdk.audio.AudioConfig(filename=thisisafile)
 
     speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, audio_config=audio_config)
