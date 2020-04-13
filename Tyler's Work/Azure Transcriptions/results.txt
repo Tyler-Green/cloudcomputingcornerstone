@@ -1,0 +1,13 @@
+
+Audio Clip          | Words Correct | Words Wrong | Missing Words | Added Words | WER
+------------------------------------------------------------------------------
+AllowingForDeath    | 15            | 2           | 0             | 0           | 11.76
+GibberishA          | 3             | 5           | 0             | 10          | 187.5
+GibberishB          | 14            | 8           | 1             | 4           | 56.52
+NotDifficult        | 31            | 11          | 5             | 0           | 34.04
+SemiIntelligble     | 5             | 6           | 4             | 0           | 90.91
+
+GoTime              | 78            | 14          | 21            | 1           | 31.86
+HowAreYous          | 29            | 14          | 37            | 2           | 66.25
+OneZ                | 10            | 7           | 0             | 0           | 41.18
+TalkToAngie         | 86            | 9           | 23            | 4           | 30.51
